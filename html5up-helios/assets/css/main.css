@@ -2265,7 +2265,7 @@ input, select, textarea {
 
 	body.homepage #header {
 		height: 100vh;
-		min-height: 40em;
+		min-height: 100em;
 	}
 
 		body.homepage #header h1 {
@@ -3205,6 +3205,21 @@ input, select, textarea {
 	background-color: rgb(93,121,105);
 	height: 20px;
 }
+.owk{
+	
+	font-family:  Helvetica;
+	font-size:30px;
+	font-color:rgb(93,121,105);
+}
+
+
+.owk2{
+	
+	font-family:  Helvetica;
+	font-size:30px;
+	font-color:rgba(179,163,117,1.00);
+}
+
 .yw{
 	height: 85%;
 	font-size: 20px;
