@@ -262,6 +262,7 @@ input, select, textarea {
 
 			.container {
 				width: 100%;
+				height: 100%;
 			}
 
 		}
@@ -270,6 +271,20 @@ input, select, textarea {
 
 			.container {
 				width: 100%;
+			}
+
+		}
+@media screen and (max-height: 736px) {
+
+			.container {
+					height: 100%;
+			}
+
+		}
+@media screen and (max-height: 840px) {
+
+			.container {
+					height: 100%;
 			}
 
 		}
@@ -1938,6 +1953,11 @@ input, select, textarea {
 					color: #ef8376;
 				}
 
+
+
+
+
+
 /* Form */
 
 	form label {
@@ -2185,14 +2205,15 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		background-image: url("../../images/background02.jpg");
-		background-size: cover;
+		background-image: url("../../images/backcolor.jpg");
+		background-size: auto;
 		background-position: center center;
 		background-attachment: fixed;
 		color: #fff;
 		text-align: center;
 		padding: 7.5em 0 2em 0;
 		cursor: default;
+		height: 100%;
 	}
 
 		#header:before {
@@ -2725,7 +2746,7 @@ input, select, textarea {
 
 			body, input, textarea, select {
 				font-size: 13pt;
-				line-height: 1.65em;
+				line-height: 2em;
 			}
 
 			.tweet {
@@ -2772,7 +2793,7 @@ input, select, textarea {
 
 			body, input, textarea, select {
 				font-size: 12.5pt;
-				line-height: 1.5em;
+				line-height: 2em;
 			}
 
 			h2 {
